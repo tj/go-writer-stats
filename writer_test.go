@@ -1,8 +1,11 @@
 package writer
 
-import "github.com/bmizerany/assert"
-import "io/ioutil"
-import "testing"
+import (
+	"io/ioutil"
+	"testing"
+
+	"github.com/tj/assert"
+)
 
 func TestWrites(t *testing.T) {
 	w := New(ioutil.Discard)

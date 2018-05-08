@@ -1,4 +1,4 @@
-// Wrap an io.Writer for metrics.
+// Package writer wraps an io.Writer for metrics.
 package writer
 
 import "sync/atomic"
